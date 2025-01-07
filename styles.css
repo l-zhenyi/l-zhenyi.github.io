@@ -140,7 +140,7 @@ to { border-color: green; }
 /*Button container*/
 .btn-container {
   display: flex;
-  gap: 1rem; /* Spacing between the buttons */
+  gap: 0.5rem; /* Spacing between the buttons */
   justify-content: left;
   margin-bottom: 2.0rem;
 }
@@ -158,7 +158,7 @@ to { border-color: green; }
   font-size: 1.125rem; /* Font size of button text */
   font-weight: 600;
   line-height: 1.5rem; /* Line height for text */
-  padding: .75rem 1.2rem;
+  padding: .75rem 1rem;
   text-align: center;
   text-decoration: none #6B7280 solid;
   text-decoration-thickness: auto;
@@ -210,7 +210,7 @@ to { border-color: green; }
 
 .content-header{
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem;
 }
 
 .content-line {
@@ -711,5 +711,11 @@ a:visited {
   color: #000;
 }
 
+.contact-items {
+  list-style: none;
+}
 
+.contact-items p {
+  margin-bottom: 0px;
+}
 
