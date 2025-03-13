@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const githubIcon = document.getElementById('github-icon');
     const emailIcon = document.getElementById('email-icon');
     const resumeLinkIcon = document.getElementById('resume-link-icon');
+    const resumeLinkIcon1 = document.getElementById('resume-link-icon1');
     const bottomMailLinkIcon = document.getElementById('bottom-mail-link-icon');
     const bottomLinkedinLinkIcon = document.getElementById('bottom-linkedin-link-icon');
     const bottomGithubLinkIcon = document.getElementById('bottom-github-link-icon');
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             githubIcon.src = 'assets/github-white.png';
             emailIcon.src = 'assets/email-white.png';
             resumeLinkIcon.src = 'assets/link-white.png';
+            resumeLinkIcon1.src = 'assets/link-white.png';
             bottomMailLinkIcon.src = 'assets/link-white.png';
             bottomLinkedinLinkIcon.src = 'assets/link-white.png';
             bottomGithubLinkIcon.src = 'assets/link-white.png';
@@ -28,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             githubIcon.src = 'assets/github-black.png';
             emailIcon.src = 'assets/email-black.png';
             resumeLinkIcon.src = 'assets/link-black.png';
+            resumeLinkIcon1.src = 'assets/link-black.png';
             bottomMailLinkIcon.src = 'assets/link-black.png';
             bottomLinkedinLinkIcon.src = 'assets/link-black.png';
             bottomGithubLinkIcon.src = 'assets/link-black.png';

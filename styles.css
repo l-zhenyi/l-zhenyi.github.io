@@ -219,7 +219,7 @@ body.dark-mode .ext-link:hover {
   justify-content: flex-end;
   align-items: center;
   gap: 1.0rem;
-  padding-top: 1rem;
+  padding: 1rem 0rem 1rem 0rem;
   right: 0;
   text-align: right;
 }
