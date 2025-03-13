@@ -114,7 +114,7 @@ button#dark-mode-toggle img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.0rem; /* Adjust the gap as needed */
+  gap: 0.5rem; /* Adjust the gap as needed */  
 }
 
 .subtitle {
@@ -129,16 +129,6 @@ button#dark-mode-toggle img {
 
 body.dark-mode .subtitle {
   color: #B0B0B0; /* Color for dark mode */
-}
-
-.social-icons {
-  display: flex;
-  gap: 1rem; /* Adjust the gap as needed */
-}
-
-.social-icons img {
-  width: 2rem; /* Adjust the size as needed */
-  height: 2rem; /* Adjust the size as needed */
 }
 
 .ext-link {
@@ -156,6 +146,23 @@ body.dark-mode .subtitle {
 }
 
 .ext-link:hover {
+  color: #000000;
+}
+
+.btn-ext-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000; /* Default color for light mode */
+  font-size: 1.0rem;
+  padding-left: 0.5rem;
+}
+
+.btn-ext-link img {
+  width: 1.0rem; /* Adjust the size as needed */
+}
+
+.btn-ext-link:hover {
   color: #000000;
 }
 
