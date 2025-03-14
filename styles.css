@@ -55,8 +55,8 @@ button#dark-mode-toggle {
   background: none;
   padding: 0;
   cursor: pointer;
-  width: 1.6rem; /* Adjust the width as needed */
-  height: 1.6rem; /* Adjust the height as needed */
+  width: 1.8rem; /* Adjust the width as needed */
+  height: 1.8rem; /* Adjust the height as needed */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,6 +194,7 @@ body.dark-mode .ext-link:hover {
   display: inline-flex; /* Make the button width adapt to the text */
   border: none;
   font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .btn-grad:hover {
@@ -218,6 +219,10 @@ body.dark-mode .ext-link:hover {
 
 .project-body {
   padding-left: 0.5rem;
+}
+
+.project-body ul {
+  padding-bottom: 0.5rem;
 }
   
 
