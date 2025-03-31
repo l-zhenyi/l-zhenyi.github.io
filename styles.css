@@ -9,7 +9,7 @@ body, html {
 
 p, h1, h2 {
   padding-left: 0.375rem;
-  padding-right: 1rem;
+  padding-right: 0.375rem;
 }
 
 h1 {
@@ -125,6 +125,7 @@ button#dark-mode-toggle img {
   padding-left: 0.5rem;
   font-size: 1.2rem;
   color: #000000; /* Default color for light mode */
+  flex-wrap: wrap;
 }
 
 body.dark-mode .subtitle {
