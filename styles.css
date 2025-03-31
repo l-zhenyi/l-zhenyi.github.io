@@ -186,7 +186,7 @@ body.dark-mode .ext-link:hover {
 .btn-grad {
   background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
   margin: 0;
-  padding: 2px 5px; /* Add padding for better spacing */
+  padding: 1vh 1vw; /* Add padding for better spacing */
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
@@ -213,17 +213,14 @@ body.dark-mode .ext-link:hover {
 }
 
 
- ul {
-  list-style-position: inside;
-  padding-left: 0;
-}
-
 .project-body {
-  padding-left: 0.5rem;
+  padding-left: 0rem;
 }
 
 .project-body ul {
   padding-bottom: 0.5rem;
+  /* list-style-position: inside; */
+  padding-left: 1.5rem;
 }
   
 
